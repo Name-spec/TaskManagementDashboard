@@ -1,0 +1,17 @@
+.Services {
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+}
+
+.Services button {
+    background-color: #7F00FF;
+    color: white;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 20px;
+}

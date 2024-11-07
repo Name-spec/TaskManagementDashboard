@@ -1,0 +1,30 @@
+.tasks {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(90, 88, 88, 0.1);
+  }
+  
+
+
+  .tskType {
+    font-size: 14px;
+    color: #707070;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+.right {
+  margin-left: auto;
+}
+  .headtask {
+    color: black;
+  }
+  
+  .taskDetail {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+  }
+  

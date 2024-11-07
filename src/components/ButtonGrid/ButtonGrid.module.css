@@ -1,0 +1,20 @@
+.buttonGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+  }
+
+.buttonGrid button {
+    border-color: #7F00FF;
+    color: #7F00FF;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    border-radius: 10px;
+}
+  

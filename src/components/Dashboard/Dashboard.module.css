@@ -1,0 +1,32 @@
+.dashboard {
+  display: flex;
+    background-color: #f8f9fa;
+  }
+  
+  .mainContent {
+    width: 100%;
+    padding: 10px;
+    margin-left: 72px;
+  }
+  
+  .sidePosition {
+    position: fixed;
+  }
+
+  .cardContent {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sectionTitle {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 16px;
+  }
+  
+  .statsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 32px;
+  }

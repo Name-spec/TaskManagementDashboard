@@ -1,0 +1,12 @@
+Task Management Dashboard:
+This Task Management Dashboard is structured with modular, reusable components. It is structured in such a way to optimize maintainability, scalability, and code clarity. Each component serves a specific purpose within the layout, making it easy to manage and extend as the application evolves.
+Data flows in a top-down manner, with the App component passing props to child components. This setup promotes a clear hierarchy and minimizes state complexity. For example, hardcoded task data is managed within the CurrentTasks component, allowing for future integration of dynamic task data via an API. The child components receive data through props, making each one adaptable and reusable without rewriting logic.
+The project uses CSS modules to scope styles locally to each component, preventing style conflicts and keeping the code organized. CSS Grid and Flexbox are applied to create a responsive layout, ensuring consistent alignment and spacing across components, including the sidebar, stat cards, and action buttons. This approach improves user experience by keeping the design structured and visually appealing.
+The function of each component is described below:
+	App Component: Acts as the root of the application, assembling all other components into a cohesive layout. It serves as the main entry point and manages the overall structure of the dashboard.
+	Sidebar Component: Contains navigation links for different sections. The sidebar is designed to be easily extensible; adding or rearranging links can be done simply by updating the navigation items array.
+	Header Component: This component displays the user’s profile offering easy access to key user information. By keeping user-specific information in a dedicated header component, we provide a consistent and focused user experience.
+	StatsCard Component: A reusable component for displaying metric cards like "Past Due" or "Due Today."
+	ButtonGrid and Button Components: The ButtonGrid component organizes action buttons into a responsive grid, while the Button component is reusable for each individual button. Passing button text and color through props makes the component adaptable to various actions, allowing future expansion with additional actions.
+	CurrentTasks Component: This component handles the list of ongoing tasks, displaying each task as a separate TaskCard. It iterates over an array of task data and renders a TaskCard for each item, allowing for a clean and organized task display.
+
